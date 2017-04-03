@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220C27EF1E91F1E100A5DE64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C27EE1E91F1E100A5DE64 /* AppDelegate.swift */; };
+		220C27F11E91F1E100A5DE64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C27F01E91F1E100A5DE64 /* ViewController.swift */; };
+		220C27F41E91F1E100A5DE64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220C27F21E91F1E100A5DE64 /* Main.storyboard */; };
+		220C27F61E91F1E100A5DE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220C27F51E91F1E100A5DE64 /* Assets.xcassets */; };
+		220C27F91E91F1E100A5DE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220C27F71E91F1E100A5DE64 /* LaunchScreen.storyboard */; };
+		220C28041E91F1E100A5DE64 /* StraightUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C28031E91F1E100A5DE64 /* StraightUpTests.swift */; };
+		220C280F1E91F1E100A5DE64 /* StraightUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C280E1E91F1E100A5DE64 /* StraightUpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220C28001E91F1E100A5DE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220C27E31E91F1E100A5DE64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220C27EA1E91F1E100A5DE64;
+			remoteInfo = StraightUp;
+		};
+		220C280B1E91F1E100A5DE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220C27E31E91F1E100A5DE64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220C27EA1E91F1E100A5DE64;
+			remoteInfo = StraightUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220C27EB1E91F1E100A5DE64 /* StraightUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StraightUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220C27EE1E91F1E100A5DE64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		220C27F01E91F1E100A5DE64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		220C27F31E91F1E100A5DE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		220C27F51E91F1E100A5DE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		220C27F81E91F1E100A5DE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		220C27FA1E91F1E100A5DE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220C27FF1E91F1E100A5DE64 /* StraightUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StraightUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		220C28031E91F1E100A5DE64 /* StraightUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StraightUpTests.swift; sourceTree = "<group>"; };
+		220C28051E91F1E100A5DE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220C280A1E91F1E100A5DE64 /* StraightUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StraightUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		220C280E1E91F1E100A5DE64 /* StraightUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StraightUpUITests.swift; sourceTree = "<group>"; };
+		220C28101E91F1E100A5DE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220C27E81E91F1E100A5DE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C27FC1E91F1E100A5DE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C28071E91F1E100A5DE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220C27E21E91F1E000A5DE64 = {
+			isa = PBXGroup;
+			children = (
+				220C27ED1E91F1E100A5DE64 /* StraightUp */,
+				220C28021E91F1E100A5DE64 /* StraightUpTests */,
+				220C280D1E91F1E100A5DE64 /* StraightUpUITests */,
+				220C27EC1E91F1E100A5DE64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220C27EC1E91F1E100A5DE64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220C27EB1E91F1E100A5DE64 /* StraightUp.app */,
+				220C27FF1E91F1E100A5DE64 /* StraightUpTests.xctest */,
+				220C280A1E91F1E100A5DE64 /* StraightUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220C27ED1E91F1E100A5DE64 /* StraightUp */ = {
+			isa = PBXGroup;
+			children = (
+				220C27EE1E91F1E100A5DE64 /* AppDelegate.swift */,
+				220C27F01E91F1E100A5DE64 /* ViewController.swift */,
+				220C27F21E91F1E100A5DE64 /* Main.storyboard */,
+				220C27F51E91F1E100A5DE64 /* Assets.xcassets */,
+				220C27F71E91F1E100A5DE64 /* LaunchScreen.storyboard */,
+				220C27FA1E91F1E100A5DE64 /* Info.plist */,
+			);
+			path = StraightUp;
+			sourceTree = "<group>";
+		};
+		220C28021E91F1E100A5DE64 /* StraightUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				220C28031E91F1E100A5DE64 /* StraightUpTests.swift */,
+				220C28051E91F1E100A5DE64 /* Info.plist */,
+			);
+			path = StraightUpTests;
+			sourceTree = "<group>";
+		};
+		220C280D1E91F1E100A5DE64 /* StraightUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				220C280E1E91F1E100A5DE64 /* StraightUpUITests.swift */,
+				220C28101E91F1E100A5DE64 /* Info.plist */,
+			);
+			path = StraightUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220C27EA1E91F1E100A5DE64 /* StraightUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220C28131E91F1E100A5DE64 /* Build configuration list for PBXNativeTarget "StraightUp" */;
+			buildPhases = (
+				220C27E71E91F1E100A5DE64 /* Sources */,
+				220C27E81E91F1E100A5DE64 /* Frameworks */,
+				220C27E91E91F1E100A5DE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StraightUp;
+			productName = StraightUp;
+			productReference = 220C27EB1E91F1E100A5DE64 /* StraightUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		220C27FE1E91F1E100A5DE64 /* StraightUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220C28161E91F1E200A5DE64 /* Build configuration list for PBXNativeTarget "StraightUpTests" */;
+			buildPhases = (
+				220C27FB1E91F1E100A5DE64 /* Sources */,
+				220C27FC1E91F1E100A5DE64 /* Frameworks */,
+				220C27FD1E91F1E100A5DE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220C28011E91F1E100A5DE64 /* PBXTargetDependency */,
+			);
+			name = StraightUpTests;
+			productName = StraightUpTests;
+			productReference = 220C27FF1E91F1E100A5DE64 /* StraightUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		220C28091E91F1E100A5DE64 /* StraightUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220C28191E91F1E200A5DE64 /* Build configuration list for PBXNativeTarget "StraightUpUITests" */;
+			buildPhases = (
+				220C28061E91F1E100A5DE64 /* Sources */,
+				220C28071E91F1E100A5DE64 /* Frameworks */,
+				220C28081E91F1E100A5DE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220C280C1E91F1E100A5DE64 /* PBXTargetDependency */,
+			);
+			name = StraightUpUITests;
+			productName = StraightUpUITests;
+			productReference = 220C280A1E91F1E100A5DE64 /* StraightUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220C27E31E91F1E100A5DE64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Timothy DenOuden";
+				TargetAttributes = {
+					220C27EA1E91F1E100A5DE64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CY3XZ54RTM;
+						ProvisioningStyle = Automatic;
+					};
+					220C27FE1E91F1E100A5DE64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CY3XZ54RTM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 220C27EA1E91F1E100A5DE64;
+					};
+					220C28091E91F1E100A5DE64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CY3XZ54RTM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 220C27EA1E91F1E100A5DE64;
+					};
+				};
+			};
+			buildConfigurationList = 220C27E61E91F1E100A5DE64 /* Build configuration list for PBXProject "StraightUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220C27E21E91F1E000A5DE64;
+			productRefGroup = 220C27EC1E91F1E100A5DE64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220C27EA1E91F1E100A5DE64 /* StraightUp */,
+				220C27FE1E91F1E100A5DE64 /* StraightUpTests */,
+				220C28091E91F1E100A5DE64 /* StraightUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220C27E91E91F1E100A5DE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220C27F91E91F1E100A5DE64 /* LaunchScreen.storyboard in Resources */,
+				220C27F61E91F1E100A5DE64 /* Assets.xcassets in Resources */,
+				220C27F41E91F1E100A5DE64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C27FD1E91F1E100A5DE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C28081E91F1E100A5DE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220C27E71E91F1E100A5DE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220C27F11E91F1E100A5DE64 /* ViewController.swift in Sources */,
+				220C27EF1E91F1E100A5DE64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C27FB1E91F1E100A5DE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220C28041E91F1E100A5DE64 /* StraightUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220C28061E91F1E100A5DE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220C280F1E91F1E100A5DE64 /* StraightUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		220C28011E91F1E100A5DE64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220C27EA1E91F1E100A5DE64 /* StraightUp */;
+			targetProxy = 220C28001E91F1E100A5DE64 /* PBXContainerItemProxy */;
+		};
+		220C280C1E91F1E100A5DE64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220C27EA1E91F1E100A5DE64 /* StraightUp */;
+			targetProxy = 220C280B1E91F1E100A5DE64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		220C27F21E91F1E100A5DE64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220C27F31E91F1E100A5DE64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		220C27F71E91F1E100A5DE64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220C27F81E91F1E100A5DE64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		220C28111E91F1E100A5DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220C28121E91F1E100A5DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220C28141E91F1E100A5DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CY3XZ54RTM;
+				INFOPLIST_FILE = StraightUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasacpp.StraightUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		220C28151E91F1E100A5DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CY3XZ54RTM;
+				INFOPLIST_FILE = StraightUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasacpp.StraightUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		220C28171E91F1E200A5DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CY3XZ54RTM;
+				INFOPLIST_FILE = StraightUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasacpp.StraightUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StraightUp.app/StraightUp";
+			};
+			name = Debug;
+		};
+		220C28181E91F1E200A5DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CY3XZ54RTM;
+				INFOPLIST_FILE = StraightUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasacpp.StraightUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StraightUp.app/StraightUp";
+			};
+			name = Release;
+		};
+		220C281A1E91F1E200A5DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CY3XZ54RTM;
+				INFOPLIST_FILE = StraightUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasacpp.StraightUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StraightUp;
+			};
+			name = Debug;
+		};
+		220C281B1E91F1E200A5DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CY3XZ54RTM;
+				INFOPLIST_FILE = StraightUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasacpp.StraightUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StraightUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220C27E61E91F1E100A5DE64 /* Build configuration list for PBXProject "StraightUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220C28111E91F1E100A5DE64 /* Debug */,
+				220C28121E91F1E100A5DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220C28131E91F1E100A5DE64 /* Build configuration list for PBXNativeTarget "StraightUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220C28141E91F1E100A5DE64 /* Debug */,
+				220C28151E91F1E100A5DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		220C28161E91F1E200A5DE64 /* Build configuration list for PBXNativeTarget "StraightUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220C28171E91F1E200A5DE64 /* Debug */,
+				220C28181E91F1E200A5DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		220C28191E91F1E200A5DE64 /* Build configuration list for PBXNativeTarget "StraightUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220C281A1E91F1E200A5DE64 /* Debug */,
+				220C281B1E91F1E200A5DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220C27E31E91F1E100A5DE64 /* Project object */;
+}
