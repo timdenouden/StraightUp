@@ -14,6 +14,12 @@
 		220C27F91E91F1E100A5DE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220C27F71E91F1E100A5DE64 /* LaunchScreen.storyboard */; };
 		220C28041E91F1E100A5DE64 /* StraightUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C28031E91F1E100A5DE64 /* StraightUpTests.swift */; };
 		220C280F1E91F1E100A5DE64 /* StraightUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C280E1E91F1E100A5DE64 /* StraightUpUITests.swift */; };
+		220C281D1E92C1A500A5DE64 /* PostureScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C281C1E92C1A500A5DE64 /* PostureScene.swift */; };
+		222203591EC0EF5F007EAF2B /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222203581EC0EF5F007EAF2B /* ScrollableGraphView.swift */; };
+		225708801EA6C91B009994A1 /* TestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257087F1EA6C91B009994A1 /* TestScene.swift */; };
+		225759211FE5A3B3009D93F9 /* TimelineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225759201FE5A3B3009D93F9 /* TimelineItem.swift */; };
+		225759231FE5A714009D93F9 /* TimelineItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225759221FE5A714009D93F9 /* TimelineItemTableViewCell.swift */; };
+		225759251FE5AEA6009D93F9 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225759241FE5AEA6009D93F9 /* TimelineTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		220C280A1E91F1E100A5DE64 /* StraightUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StraightUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		220C280E1E91F1E100A5DE64 /* StraightUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StraightUpUITests.swift; sourceTree = "<group>"; };
 		220C28101E91F1E100A5DE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220C281C1E92C1A500A5DE64 /* PostureScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostureScene.swift; sourceTree = "<group>"; };
+		222203581EC0EF5F007EAF2B /* ScrollableGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphView.swift; sourceTree = "<group>"; };
+		2257087F1EA6C91B009994A1 /* TestScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestScene.swift; sourceTree = "<group>"; };
+		225759201FE5A3B3009D93F9 /* TimelineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineItem.swift; sourceTree = "<group>"; };
+		225759221FE5A714009D93F9 /* TimelineItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineItemTableViewCell.swift; sourceTree = "<group>"; };
+		225759241FE5AEA6009D93F9 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				220C27EE1E91F1E100A5DE64 /* AppDelegate.swift */,
-				220C27F01E91F1E100A5DE64 /* ViewController.swift */,
 				220C27F21E91F1E100A5DE64 /* Main.storyboard */,
 				220C27F51E91F1E100A5DE64 /* Assets.xcassets */,
 				220C27F71E91F1E100A5DE64 /* LaunchScreen.storyboard */,
 				220C27FA1E91F1E100A5DE64 /* Info.plist */,
+				220C281C1E92C1A500A5DE64 /* PostureScene.swift */,
+				2257087F1EA6C91B009994A1 /* TestScene.swift */,
+				220C27F01E91F1E100A5DE64 /* ViewController.swift */,
+				222203581EC0EF5F007EAF2B /* ScrollableGraphView.swift */,
+				225759201FE5A3B3009D93F9 /* TimelineItem.swift */,
+				225759221FE5A714009D93F9 /* TimelineItemTableViewCell.swift */,
+				225759241FE5AEA6009D93F9 /* TimelineTableViewController.swift */,
 			);
 			path = StraightUp;
 			sourceTree = "<group>";
@@ -264,6 +282,12 @@
 			files = (
 				220C27F11E91F1E100A5DE64 /* ViewController.swift in Sources */,
 				220C27EF1E91F1E100A5DE64 /* AppDelegate.swift in Sources */,
+				225708801EA6C91B009994A1 /* TestScene.swift in Sources */,
+				225759211FE5A3B3009D93F9 /* TimelineItem.swift in Sources */,
+				225759231FE5A714009D93F9 /* TimelineItemTableViewCell.swift in Sources */,
+				220C281D1E92C1A500A5DE64 /* PostureScene.swift in Sources */,
+				225759251FE5AEA6009D93F9 /* TimelineTableViewController.swift in Sources */,
+				222203591EC0EF5F007EAF2B /* ScrollableGraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +538,7 @@
 				220C28151E91F1E100A5DE64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		220C28161E91F1E200A5DE64 /* Build configuration list for PBXNativeTarget "StraightUpTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +547,7 @@
 				220C28181E91F1E200A5DE64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		220C28191E91F1E200A5DE64 /* Build configuration list for PBXNativeTarget "StraightUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +556,7 @@
 				220C281B1E91F1E200A5DE64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
